@@ -7,5 +7,81 @@
         0 4px 6px rgba(0, 0, 0, 0.1),
         0 1px 3px rgba(0, 0, 0, 0.08);
     color: $white;    
+    transition: all .5s;
+    box-shadow: 0 10px 20px -10px #4361ee;;
     
+
+    &:hover{
+    transform: translateY(-1.3rem);
 }
+
+}
+
+.btn-position{
+   display: flex;
+   justify-content: flex-end;
+   padding-right: 90px;
+   padding-bottom: 20px;
+   border-bottom: #dee2e6 solid 2px;
+}
+
+.btn-delete{
+   background-color: $red;
+   padding: 10px;
+   border-radius: 5px;
+   border: none;
+   box-shadow:  
+     0 4px 6px rgba(0, 0, 0, 0.1),
+     0 1px 3px rgba(0, 0, 0, 0.08);
+   color: $white;    
+   transition: all .5s;
+   box-shadow: 0 10px 20px -10px $red;
+
+   &:hover{
+    transform: translateY(-1.3rem);
+}
+
+}
+
+.btn-confirm{
+   background-color: #5c636a;
+   padding: 10px;
+   border-radius: 5px;
+   border: none;
+   box-shadow:  
+     0 4px 6px rgba(0, 0, 0, 0.1),
+     0 1px 3px rgba(0, 0, 0, 0.08);
+   color: $white;    
+   transition: all .5s;
+   box-shadow: 0 10px 20px -10px #5c636a;
+
+   &:hover{
+    transform: translateY(-1.3rem);
+}
+
+}
+
+.btn-editview{
+   background-color: #5c636a;
+   padding: 10px;
+   border-radius: 5px;
+   border: none;
+   box-shadow:  
+     0 4px 6px rgba(0, 0, 0, 0.1),
+     0 1px 3px rgba(0, 0, 0, 0.08);
+   color: $white;    
+   transition: all .5s;
+   box-shadow: 0 10px 20px -10px #5c636a;
+
+   &:hover{
+    transform: translateY(-1.3rem);
+}
+   
+}
+
+.btn-double{
+   display: flex;
+   gap: 10px;
+}
+
+
